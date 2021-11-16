@@ -162,3 +162,53 @@ footer{
 	text-decoration: none;
 	font-family: var(--poppins);
 }
+
+/* media query */
+@media (max-width:600px){
+	nav .container-fluid .navbar-nav a{
+		font-weight: 250;
+		font-size: 18px;
+	}
+	#home .container h1{
+		font-size: 35px;
+	}
+	#home .container h3{
+		font-size: 15px;
+		font-weight: 200;
+		padding-bottom: 10px;
+	}
+	#home .sosial-media a{
+		padding-right: 10px;
+	}
+	.text-about h1{
+		font-size: 35px;
+		padding-top: .5rem;
+	}
+	.text-about p {
+		font-size: 18px;
+	}
+	.title-skills h1{
+		font-size: 35px;
+	}
+	#skills .container{
+		margin-top: 30px;
+	}
+	#skills .container .row .col .border img{
+		width: 70px;
+	}
+	#skills .container .row .col .border .text h5{
+		font-size: 18px;
+	}
+	#skills .container .row .col .border .text p{
+		font-size: 15px;
+	}
+	.title-project h1{
+		font-size: 35px;
+	}
+	.contact-title h1{
+		font-size: 35px;
+	}
+	footer{
+		font-size: 18px;
+	}
+}
