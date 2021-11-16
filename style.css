@@ -170,7 +170,7 @@ footer{
 		font-size: 18px;
 	}
 	#home .container h1{
-		font-size: 18px;
+		font-size: 25px;
 	}
 	#home .container h3{
 		font-size: 15px;
@@ -181,14 +181,17 @@ footer{
 		padding-right: 7px;
 	}
 	.text-about h1{
-		font-size: 18px;
+		font-size: 25px;
 		padding-top: .5rem;
 	}
 	.text-about p {
 		font-size: 14px;
 	}
 	.title-skills h1{
-		font-size: 18px;
+		font-size: 25px;
+	}
+	#skills .container .row .col .border{
+		margin: .2rem;
 	}
 	#skills .container{
 		margin-top: 30px;
@@ -203,10 +206,10 @@ footer{
 		font-size: 15px;
 	}
 	.title-project h1{
-		font-size: 18px;
+		font-size: 25px;
 	}
 	.contact-title h1{
-		font-size: 18px;
+		font-size: 25px;
 	}
 	footer{
 		font-size: 14px;
