@@ -42,12 +42,10 @@ nav{
 	z-index: 3;
 }
 nav .navbar a{
-    font-weight: 350;
-	font-size: 16px;
 	text-transform: capitalize;
 	color: #fff;
 	font-weight: 700;
-	font-size: 1.3rem;
+	font-size: 1.2rem;
 	font-family: var(--caveat);
 }
 nav .navbar .active{
@@ -92,14 +90,13 @@ nav .navbar a:hover{
 	border-radius: 150px 150px 0% 0%;
 }
 #about .icons{
-	display: grid;
-	position: absolute;
-	bottom: 0;
+	display: flex;
+	justify-content: center;
 
 }
 #about .icons a{
-	padding: 1rem;
-	font-size: 1rem;
+	padding: 1.5rem;
+	font-size: 1.5rem;
 	opacity: .5;
 	cursor: pointer;
 	color: var(--light-color);
