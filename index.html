@@ -5,212 +5,204 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-     <!--Font Awesome-->
-     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
-    <!--poppins-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
-
-    <!-- Abril Fatface -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet"> 
-
-    <!-- Lato -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
-
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- bootstrap icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
 
     <!-- eksternal css -->
     <link rel="stylesheet" href="style.css">
 
-    <title>Portofolio</title>
-  </head>
-  <body>
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light position-fixed">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
-              <a class="nav-link" href="#about">About</a>
-              <a class="nav-link" href="#skills">Skills</a>
-              <a class="nav-link" href="#project">Project</a>
+    <link href="https://fonts.googleapis.com/css2?family=Cambay:ital@1&family=Caveat&family=Lobster&family=Open+Sans:wght@400;700&family=Pacifico&family=Source+Serif+Pro:wght@300&display=swap" rel="stylesheet">    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg position-fixed">
+            <div class="navbar">
+              <a class="nav-link" href="#about">About Me</a>
+              <a class="nav-link" href="#skills">My Skills</a>
+              <a class="nav-link" href="#project">My Projects</a>
               <a class="nav-link" href="#contact">Contact Me</a>
             </div>
-          </div>
-        </div>
       </nav>
     <!-- end nabar -->
 
     <!-- home -->
-      <div id="home">
-        <div class="container">
-          <h1 class="h1 text-center">Hi, I’m <span class="span evi typed-text"></span><span class="cursor">&nbsp;</span></h1>
-          <h3 class="lead text-center">Web Developer | UI/UX Designer</h3>
-          <!-- Sosial Media -->
-          <div class="sosial-media text-center">
-            <!-- Instagram -->
-            <a href="https://www.instagram.com/evii_silaban/?hl=en" target="blank"><i class="fab fa-instagram fa-2x"></i></a>
-            <!-- Facebook -->
-            <a href="https://web.facebook.com/profile.php?id=100008696475012" target="blank"><i class="fab fa-facebook-f fa-2x"></i></a>
-            <!-- Twitter -->
-            <a href="https://twitter.com/Evirosalinasil2" target="blank"><i class="fab fa-twitter fa-2x"></i></a>
-            <!-- Github -->
-            <a href="https://github.com/EviSilaban" target="blank"><i class="fab fa-github fa-2x"></i></a>
-            <!-- linkedin -->
-            <a href="https://www.linkedin.com/in/evi-rosalina-silaban-1943a9215/" target="blank"><i class="fab fa-linkedin fa-2x"></i></a>
+      <section id="about">
+        <div class="container text-center">
+          <div class="description ">
+            <p>Hello i'm</p>
+            <h5 class="mb-3">Evi Rosalina Silaban</h5>
+            <h6 class="mb-3">web development <span>|</span>software quality assurance</h6>
+          </div>
+          <div class="button mb-3">
+            <button type="button" onclick="download()" class="btn btn1 download">Download CV</button>
+            <button type="button" class="btn btn2"><a href="whatsapp://send?text=Hello&phone=+6282230313728">Let's Talk</a></button>
+          </div>
+          <img src="img/evi1.png" alt="" />
+          <div class="icons mx-auto">
+            <a href="https://github.com/EviSilaban"><i class="bi bi-github"></i></a>
+            <a href="https://www.linkedin.com/in/evi-rosalina-silaban-1943a9215"><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.instagram.com/evii_silaban/"><i class="bi bi-instagram"></i></a>
+            <a href="https://web.facebook.com/profile.php?id=100008696475012"><i class="bi bi-facebook"></i></a>
           </div>
         </div>
       </div>
     <!-- end home -->
 
-    <!-- about -->
-    <section id="about">
-      <div class="container-fluid">
-        <div class="row justify-content-center d-flex">
-          <div class="col-lg-6 col-md-12 justify-content-center d-flex">
-            <div class="text-capitalize text-about">
-              <h1>About <span>Me</span></h1>
-              <p class="intro">hi everyone ........</p>
-              <p>I am <b>Evi Rosalina Silaban</b> , currently studying at <b>Del Institute of Technology</b> as a 
-                  5th semester student in the Informatics Undergraduate Study Program. I am very 
-                  interested in the world of design, and website development. I'm still learning and I 
-                  still need to learn a lot of things.
-              </p>
+    <!-- skills -->
+    <section id="skills">
+      <p class="text-center title">My skills</p>
+      <div class="container d-flex flex-wrap justify-content-center">
+        <div class="card">
+          <p class="pt-4 text-center subtitle">Web Development</p>
+          <div class="card-container d-flex flex-wrap">
+            <div class="d-flex skill-container pe-5">
+              <i class="bi bi-patch-check-fill me-2"></i>
+               <div class="text">
+                <p>HTML</p>
+                <p class="small"><small class="text-muted">Advanced</small></p>
+               </div>
             </div>
-          </div>
-          <div class="col-lg-6 col-md-12 justify-content-center d-flex">
-            <div class="about-img">
-              <img src="img/profil3.png" class="img-fluid" alt="" width="640">
+            <div class="d-flex skill-container pe-5">
+              <i class="bi bi-patch-check-fill me-2"></i>
+               <div class="text">
+                <p>CSS</p>
+                <p class="small"><small class="text-muted">Advanced</small></p>
+               </div>
+            </div>
+            <div class="d-flex skill-container pe-5">
+              <i class="bi bi-patch-check-fill me-2"></i>
+               <div class="text">
+                <p>Javascript</p>
+                <p class="small"><small class="text-muted">intermediate</small></p>
+               </div>
+            </div>
+            <div class="d-flex skill-container pe-5">
+              <i class="bi bi-patch-check-fill me-2"></i>
+               <div class="text">
+                <p>PHP</p>
+                <p class="small"><small class="text-muted">intermediate</small></p>
+               </div>
+            </div>
+            <div class="d-flex skill-container pe-5">
+              <i class="bi bi-patch-check-fill me-2"></i>
+               <div class="text">
+                <p>C</p>
+                <p class="small"><small class="text-muted">intermediate</small></p>
+               </div>
+            </div>
+            <div class="d-flex skill-container pe-5">
+              <i class="bi bi-patch-check-fill me-2"></i>
+               <div class="text">
+                <p>Java</p>
+                <p class="small"><small class="text-muted">intermediate</small></p>
+               </div>
+            </div>
+            <div class="d-flex skill-container pe-5">
+              <i class="bi bi-patch-check-fill me-2"></i>
+               <div class="text">
+                <p>ReactJs</p>
+                <p class="small"><small class="text-muted">intermediate</small></p>
+               </div>
+            </div>
+            <div class="d-flex skill-container pe-5">
+              <i class="bi bi-patch-check-fill me-2"></i>
+               <div class="text">
+                <p>VueJs</p>
+                <p class="small"><small class="text-muted">intermediate</small></p>
+               </div>
+            </div>
+            <div class="d-flex skill-container pe-5">
+              <i class="bi bi-patch-check-fill me-2"></i>
+               <div class="text">
+                <p>Bootstrap</p>
+                <p class="small"><small class="text-muted">Advanced</small></p>
+               </div>
+            </div>
+            <div class="d-flex skill-container pe-5">
+              <i class="bi bi-patch-check-fill me-2"></i>
+               <div class="text">
+                <p>Material-UI</p>
+                <p class="small"><small class="text-muted">Advanced</small></p>
+               </div>
+            </div>
+            <div class="d-flex skill-container pe-5">
+              <i class="bi bi-patch-check-fill me-2"></i>
+               <div class="text">
+                <p>Laravel</p>
+                <p class="small"><small class="text-muted">intermediate</small></p>
+               </div>
+            </div>
+            <div class="d-flex skill-container pe-5">
+              <i class="bi bi-patch-check-fill me-2"></i>
+               <div class="text">
+                <p>MySQL</p>
+                <p class="small"><small class="text-muted">intermediate</small></p>
+               </div>
+            </div>
+            <div class="d-flex skill-container pe-5">
+              <i class="bi bi-patch-check-fill me-2"></i>
+               <div class="text">
+                <p>NodeJs</p>
+                <p class="small"><small class="text-muted">beginner</small></p>
+               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- end about -->
-
-    <!-- skills -->
-    <section id="skills">
-      <div class="title-skills">
-        <h1>Skills <span>& Tools</span></h1>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col">
-           <div class="p-2 border">
-             <img src="img/html.png" alt="">
-             <div class="text">
-              <h5>HTML</h5>
-              <p>Advanced</p>
-             </div>
-           </div>
-          </div>
-          <div class="col">
-            <div class="p-2 border">
-              <img src="img/css.png" alt="">
-              <div class="text">
-                <h5>CSS</h5>
-                <p>Advanced</p>
-              </div>
+        
+        <div class="card">
+          <p class="pt-4 ps-5 text-center subtitle">software quality assurance</p>
+          <div class="card-container d-flex flex-wrap">
+            <div class="d-flex skill-container pe-5">
+              <i class="bi bi-patch-check-fill me-2"></i>
+               <div class="text">
+                <p>Manual Testing</p>
+                <p class="small"><small class="text-muted">Advanced</small></p>
+               </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="p-2 border">
-              <img src="img/js.png" alt="">
-              <div class="text">
-                <h5>Javascript</h5>
-                <p>Intermediate</p>
-              </div>
+            <div class="d-flex skill-container pe-5">
+              <i class="bi bi-patch-check-fill me-2"></i>
+               <div class="text">
+                <p>Selenium</p>
+                <p class="small"><small class="text-muted">intermediate</small></p>
+               </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="p-2 border">
-              <img src="img/c.png" alt="">
-              <div class="text">
-                <h5>C</h5>
-                <p>Intermediate</p>
-              </div>
+            <div class="d-flex skill-container pe-5">
+              <i class="bi bi-patch-check-fill me-2"></i>
+               <div class="text">
+                <p>Robot Framework</p>
+                <p class="small"><small class="text-muted">intermediate</small></p>
+               </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="p-2 border">
-              <img src="img/php.png" alt="">
-              <div class="text">
-                <h5>PHP</h5>
-                <p>Intermediate</p>
-              </div>
+            <div class="d-flex skill-container pe-5">
+              <i class="bi bi-patch-check-fill me-2"></i>
+               <div class="text">
+                <p>Cucumber</p>
+                <p class="small"><small class="text-muted">intermediate</small></p>
+               </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="p-2 border">
-              <img src="img/bootstrap.png" alt="">
-              <div class="text">
-                <h5>Bootstrap</h5>
-                <p>Advanced</p>
-              </div>
+            <div class="d-flex skill-container pe-5">
+              <i class="bi bi-patch-check-fill me-2"></i>
+               <div class="text">
+                <p>Katalon</p>
+                <p class="small"><small class="text-muted">intermediate</small></p>
+               </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="p-2 border">
-              <img src="img/react.png" alt="">
-              <div class="text">
-                <h5>React Js</h5>
-                <p>Intermediate</p>
-              </div>
+            <div class="d-flex skill-container pe-5">
+              <i class="bi bi-patch-check-fill me-2"></i>
+               <div class="text">
+                <p>Postman</p>
+                <p class="small"><small class="text-muted">intermediate</small></p>
+               </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="p-2 border">
-              <img src="img/figma.png" alt="">
-              <div class="text">
-                <h5>Figma</h5>
-                <p>Intermediate</p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="p-2 border">
-              <img src="img/mysql.png" alt="">
-              <div class="text">
-                <h5>Mysql</h5>
-                <p>Intermediate</p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="p-2 border">
-              <img src="img/postman.png" alt="">
-              <div class="text">
-                <h5>Postman</h5>
-                <p>Beginner</p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="p-2 border">
-              <img src="img/git.png" alt="">
-              <div class="text">
-                <h5>Git</h5>
-                <p>Intermediate</p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="p-2 border">
-              <img src="img/vue.png" alt="">
-              <div class="text">
-                <h5>Vue Js</h5>
-                <p>Beginner</p>
-              </div>
+            <div class="d-flex skill-container pe-5">
+              <i class="bi bi-patch-check-fill me-2"></i>
+               <div class="text">
+                <p>Jira</p>
+                <p class="small"><small class="text-muted">intermediate</small></p>
+               </div>
             </div>
           </div>
         </div>
@@ -219,52 +211,63 @@
     <!-- end skills -->
 
     <!-- project -->
-    <section id="project">
-      <div class="container-fluid">
-        <div class="title-project">
-          <h1 class="project-isi">My <span>Project</span></h1>
-        </div>
-      </div>
-      <div class="row row-cols-1 row-cols-md-2 g-4">
-        <div class="col">
-          <div class="card h-100">
-            <img src="img/himasti.JPG" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">HIMASTI</h5>
-              <p class="card-text">HIMASTI is a static website for assignments from the 
-                Project 1 course, built with HTML, CSS, JS, and Bootstrap.</p>
+     <section id="project">
+        <p class="title text-center title">My Project</p>
+        <div class="project-container d-flex flex-wrap justify-content-center">
+            <div class="card">
+              <img src="img/himasti.JPG" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="description">Himasti static webiste</p>
+                <div class="button d-flex">
+                  <button type="button" class="btn btn1">github</button>
+                  <button type="button" class="btn btn2">Live Demo</button>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="img/portofolio.JPG" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Portofolio</h5>
-              <p class="card-text">Portfolio This website is built using HTML, CSS, and Javascript and uses Bootstrap v5.1</p>
+            <div class="card">
+              <img src="img/himasti.JPG" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="description">Himasti static webiste</p>
+                <div class="button d-flex">
+                  <button type="button" class="btn btn1">github</button>
+                  <button type="button" class="btn btn2">Live Demo</button>
+                </div>
+              </div>
             </div>
-          </div>
+            <div class="card">
+              <img src="img/himasti.JPG" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="description">Himasti static webiste</p>
+                <div class="button d-flex">
+                  <button type="button" class="btn btn1">github</button>
+                  <button type="button" class="btn btn2">Live Demo</button>
+                </div>
+              </div>
+            </div>
         </div>
-      </div>
-    </section>
+    </section> 
     <!-- end project -->
 
     <!-- contact -->
-    <section id="contact">
-      <div class="container-fluid">
-        <div class="title-project">
-          <h1 class="project-isi">Contact <span>Me</span></h1>
-        </div>
-      </div>
-      <div class="row row-cols-1 row-cols-md-2 g-5">
-        <div class="col">
-          <div class="h-100">
-            <img src="img/contact.png" class="card-img-top" alt="...">
+     <section id="contact">
+      <p class="title text-center title">contact me</p>
+      <div class="contact-container d-flex flex-wrap justify-content-center">
+        <div class="card-contact">
+          <div class="contact text-center p-2 des">
+            <i class="bi bi-envelope"></i>
+            <p>Email</p>
+            <p>evisilaban75@gmail.com</p>
+            <a href="mailto:evisilaban75@gmail.com">send a message</a>
+          </div>
+          <div class="contact text-center p-2 des">
+            <i class="bi bi-whatsapp"></i>
+            <p>WhatsApp</p>
+            <p>0822 30313728</p>
+            <a href="whatsapp://send?text=Hello&phone=+6282230313728">send a message</a>
           </div>
         </div>
-        <div class="col">
-          <div class="h-100">
-            <form name="formPendaftaran" action="file.html" method="post" onsubmit="return validateForm()">
+          <div class="form-contact">
+            <form name="formPendaftaran" action="file.html" method="post">
               <div class="form-group">
                   <label>Nama</label>
                   <input type="text" name="nama" class="form-control" required maxlength="40" minlength="3">
@@ -282,17 +285,17 @@
                 <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
                 Loading...
               </button>
-          </form>
+            </form>
           </div>
         </div>
       </div>
-  </section>
+  </section> 
     <!-- contact -->
 
     <!-- footer -->
-    <footer class="text-center text-lg-start">
-      <div class="text-center p-3 footer" style="background-color: rgba(0, 0, 0, 0.2);">
-        © Copyright: <a class="text-dark">Evi Rosalina Silaban</a>
+    <footer class="text-center text-lg-start mt-5">
+      <div class="text-center p-2 footer subtitle" style="background-color: rgba(0, 0, 0, 0.2);">
+        <p>© Copyright: Evi Rosalina Silaban</p>
       </div>
     <!-- end footer -->
 
